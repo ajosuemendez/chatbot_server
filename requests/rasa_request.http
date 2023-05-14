@@ -1,0 +1,14 @@
+POST http://localhost:5005/model/parse
+
+{
+    "text": "start"
+}
+
+###
+POST http://localhost:5005/webhooks/rest/webhook
+
+{
+    "id": "Alejandro_id",
+    "message": "start"
+}
+
